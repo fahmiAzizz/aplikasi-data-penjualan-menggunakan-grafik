@@ -1,0 +1,41 @@
+.profile{
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+th{
+    font-size: 18px;
+}
+
+
+td{
+    font-size: 18px;
+}
+
+.imgprofile{
+    border-radius: 100%;
+}
+
+@media (max-width: 575.98px) { 
+    .pl-sm-me{
+        padding-left: 40px;
+    }
+    .pr-sm-me{
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pl-md-me{
+        padding-left: 60px;
+    }
+    .pr-md-me{
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 1399.98px) {  }
