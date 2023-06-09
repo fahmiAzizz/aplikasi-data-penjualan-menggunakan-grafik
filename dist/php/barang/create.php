@@ -89,7 +89,7 @@ if(isset($_POST["submit"])) {
                             <form method="post" action="">
                                 <div class="mb-3">
                                     <label for="barang" class="form-label">Nama Barang</label>
-                                    <input type="text" class="form-control" id="barang" name="barang" required>
+                                    <input type="text" class="form-control" id="barang" name="barang" required autocomplete="off">
                                 </div>
                                 <div class="mx-auto text-center">
                                     <button type="submit" class="btn btn-primary mx-auto" name="submit">Tambah</button>

@@ -37,6 +37,32 @@ if($username == null){
         <link href="../css/styles.css" rel="stylesheet" />
 		<script src="Chart.js"></script>
     </head>
+	<style>
+		.grafik{
+            width: 800px;
+        }
+        @media (max-width: 600px) {
+        .grafik {
+            width: 500px;
+			height: 400px;
+			overflow-x: auto;
+        }
+        }
+        /* Gaya untuk layar dengan lebar antara 601px dan 1200px */
+        @media (min-width: 601px) and (max-width: 1200px) {
+        .grafik {
+            width: 600px;
+			height: 500px;
+        }
+        }
+        /* Gaya untuk layar dengan lebar lebih dari 1200px */
+        @media (min-width: 1201px) {
+        .grafik {
+            width: 750px;
+			height: 600px;
+        }
+        }
+	</style>
     <body>
         <div class="d-flex" id="wrapper">
 			<!-- Sidebar-->
@@ -71,7 +97,7 @@ if($username == null){
                 <!-- Page content-->
                 <div class="container-fluid">
                     <h2 class="mt-5 mb-5 text-center">GRAFIK PENJUALAN KESELURUHAN</h2>
-						<div style="width: 800px;height: 800px; margin:0 auto">
+						<div style="margin:0 auto" class="grafik">
 							<canvas id="myChart"></canvas>
 						</div>
 						<script>

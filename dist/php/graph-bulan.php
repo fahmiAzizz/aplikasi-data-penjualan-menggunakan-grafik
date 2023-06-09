@@ -71,7 +71,14 @@ if($username == null){
         .grafik {
             width: 500px;
 			height: 400px;
+			display: block;
+			overflow: scroll;
         }
+        /* #graph {
+            width: 500px;
+			height: 400px;
+			overflow-x: scroll;
+        } */
         }
         /* Gaya untuk layar dengan lebar antara 601px dan 1200px */
         @media (min-width: 601px) and (max-width: 1200px) {

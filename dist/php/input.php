@@ -120,7 +120,7 @@ $loopbarang = mysqli_query($conn, "SELECT * FROM tb_barang");
                                 </div>
                                 <div class="mb-3">
                                     <label for="tgl_penjualan" class="form-label">Tanggal</label>
-                                    <input type="date" class="form-control" id="tgl_penjualan" name="tgl_penjualan" required>
+                                    <input type="date" class="form-control" id="tgl_penjualan" name="tgl_penjualan" value="<?php echo date('Y-m-d'); ?>" required>
                                 </div>
                                     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                             </form>
